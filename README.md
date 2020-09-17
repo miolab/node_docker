@@ -1,6 +1,6 @@
 # Node.js Dev Container
 
-`Node.js`開発用 Docker コンテナ
+`Node.js` の Docker 開発用リポジトリ
 
 ## Usage
 
@@ -26,22 +26,24 @@ Hello, node docker!
   ```
   $ docker-compose logs -f
   Attaching to node_container
-  node_container | Welcome to Node.js v12.16.1.
+  node_container | Welcome to Node.js v14.10.1.
+    .
+    .
   ```
 
 - npm
 
   ```
   $ docker-compose run --rm app npm --version
-  6.13.4
+  6.13.8
   ```
 
 - Docker
 
   ```
   $ docker --version
-  Docker version 19.03.8, ...
+  Docker version 19.03.12, ...
 
   $ docker-compose --version
-  docker-compose version 1.25.4, ...
+  docker-compose version 1.26.2, ...
   ```
